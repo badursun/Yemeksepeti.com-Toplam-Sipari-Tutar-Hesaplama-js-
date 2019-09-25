@@ -1,5 +1,3 @@
-
-```javascript
 let changed = true;
 let itemLength = 0;
 let oldLength = 0;
@@ -20,4 +18,3 @@ function loadItems() { console.log('Yeni veriler yüklendi');
                 sleepTime = sleepTime - 200;
                 loadItems() } } }, sleepTime) } console.log('Hesaplama yapılıyor lütfen bekleyin');
 loadItems();
-```
